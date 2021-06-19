@@ -1,0 +1,49 @@
+input, textarea, select, button {
+    position: revert;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+.label {
+    padding-top: 15px;
+    padding-right: 1.25%;
+    right: 100%;
+    height: 100%;
+    width: 48.75%;
+    text-align: right;
+    float: left;
+}
+
+.content {
+    padding-top: 5px;
+    padding-left: 1.25%;
+    left: 100%;
+    height: 100%;
+    width: 48.75%;
+    text-align: left;
+    float: left;
+}
+
+form {
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    width: 50%;
+    box-sizing: content-box;
+    background: #ffffff;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/36/89/ee/3689ee106713ee1c81bcf82c6ff800a9.jpg");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
